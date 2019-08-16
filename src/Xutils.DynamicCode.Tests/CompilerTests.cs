@@ -7,14 +7,6 @@ namespace Xutils.DynamicCode.Tests
         string ParseString(string input);
     }
 
-    public class TestClass : IDynamicCode
-    {
-        public string ParseString(string input)
-        {
-            return $"Input was: {input}";
-        }
-    }
-
     [TestClass]
     public class FunctionCompilerTests
     {
