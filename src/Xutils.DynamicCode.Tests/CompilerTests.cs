@@ -2,12 +2,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Xutils.DynamicCode.Tests
 {
-    public interface IXutils.DynamicCode
+    public interface DynamicCode
     {
         string ParseString(string input);
     }
 
-    public class TestClass : IXutils.DynamicCode
+    public class TestClass : DynamicCode
     {
         public string ParseString(string input)
         {
@@ -21,7 +21,7 @@ namespace Xutils.DynamicCode.Tests
         [TestMethod]
         public void CompileTest()
         {
-            IXutils.DynamicCode compiledCode = Compiler<IXutils.DynamicCode>.Compile("testAssembly", @"
+            DynamicCode compiledCode = Compiler<DynamicCode>.Compile("testAssembly", @"
 namespace Xutils.DynamicCode.Tests
 {
     public class TestClass : IXutils.DynamicCode
