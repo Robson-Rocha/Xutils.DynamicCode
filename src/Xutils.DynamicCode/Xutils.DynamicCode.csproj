@@ -4,12 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/Robson-Rocha/DynamicCode</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Robson-Rocha/DynamicCode</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Robson-Rocha/Xutils.DynamicCode</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Robson-Rocha/Xutils.DynamicCode</RepositoryUrl>
     <Authors>Robson Rocha de Araújo</Authors>
     <Copyright>Copyright ©2019 Robson Rocha de Araújo</Copyright>
     <Description>Small library for dynamic C# code compilation</Description>
-    <PackageIconUrl>https://github.com/Robson-Rocha/DynamicCode/raw/master/docs/dynamiccode-nuget.png</PackageIconUrl>
+    <PackageIconUrl>https://github.com/Robson-Rocha/Xutils.DynamicCode/raw/master/docs/dynamiccode-nuget.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-﻿using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.Emit;
 using Microsoft.CSharp.RuntimeBinder;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Loader;
 
-namespace DynamicCode
+namespace Xutils.DynamicCode
 {
 
     public static class Compiler<I> where I : class

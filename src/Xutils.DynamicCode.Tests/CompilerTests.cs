@@ -1,13 +1,13 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DynamicCode.Tests
+namespace Xutils.DynamicCode.Tests
 {
-    public interface IDynamicCode
+    public interface IXutils.DynamicCode
     {
         string ParseString(string input);
     }
 
-    public class TestClass : IDynamicCode
+    public class TestClass : IXutils.DynamicCode
     {
         public string ParseString(string input)
         {
@@ -21,10 +21,10 @@ namespace DynamicCode.Tests
         [TestMethod]
         public void CompileTest()
         {
-            IDynamicCode compiledCode = Compiler<IDynamicCode>.Compile("testAssembly", @"
-namespace DynamicCode.Tests
+            IXutils.DynamicCode compiledCode = Compiler<IXutils.DynamicCode>.Compile("testAssembly", @"
+namespace Xutils.DynamicCode.Tests
 {
-    public class TestClass : IDynamicCode
+    public class TestClass : IXutils.DynamicCode
     {
         public string ParseString(string input)
         {

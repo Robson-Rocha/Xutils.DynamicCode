@@ -1,4 +1,4 @@
-﻿namespace DynamicCode
+namespace Xutils.DynamicCode
 {
     internal class DummyForLoading
     {
